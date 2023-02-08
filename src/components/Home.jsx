@@ -17,14 +17,12 @@ const Home = () => {
             <p id='imagem'>Imagem</p>
             <input type="text" placeholder="Informe o endereço da imagem"/>
             <p id='time'>Time</p>
-            <select >
-                <option></option>
-                <option></option>
-                <option></option>
-            </select>
-            <input type="submit" value="Criar card"/>
-        </form>
+            <select></select>
+            <br/>
+            <button className='btnCard'>Criar card</button> 
+            </form>
         </div>
+        <h1>Minha organização:</h1>
     </div>
   )
 }
